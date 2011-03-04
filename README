@@ -1,0 +1,13 @@
+This is a Barcode plugin for the PhoneGap framework.  Currently under
+development, only the following PhoneGap platforms are supported:
+
+  phonegap-blackberry-webworks (BlackBerry OS 6.0 ONLY) 
+    - Requires PhoneGap version 0.9.4
+    
+
+To add the plugin to an EXISTING phonegap-blackberry-webworks project:
+
+$ cd phonegap-plugin-barcode/BlackBerry/OS_6.0
+$ ant build
+$ copy ./build/www/ext/Barcode.jar <project>/www/ext
+$ copy ./build/www/javascript/barcode.js <project>/www/javascript
